@@ -1,0 +1,36 @@
+$duree_animation:1500ms;
+$Num_menus:6;
+$anim_delay:$duree_animation/$Num_menus;
+
+@keyframes animKey {
+    0% { opacity: 0;
+      padding-top: 1%;
+    }
+  
+    100% { opacity: 1; 
+      padding-top: 0;
+    }
+  }
+  
+  .key{
+    animation :animKey $duree_animation backwards;
+    @for $i from 1 through $Num_menus{
+    &--#{$i} {
+        animation-delay:$anim_delay * $i ;
+      }
+    }
+  }
+
+  //ESSAI
+  // .menu_tarif:hover {
+  //   animation: move_text 600ms;
+  //   +.animCheck {
+  //     animation: move_bnt 1200ms;
+      
+  //   }
+  //   >div.insideCheck {
+  //     animation: spin_icn 1200ms;
+  //   }
+  // }
+  
+  

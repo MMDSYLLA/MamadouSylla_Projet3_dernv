@@ -1,0 +1,42 @@
+@keyframes animKey {
+  0% {
+    opacity: 0;
+    padding-top: 1%;
+  }
+  100% {
+    opacity: 1;
+    padding-top: 0;
+  }
+}
+@keyframes animKey {
+  0% {
+    opacity: 0;
+    padding-top: 1%;
+  }
+  100% {
+    opacity: 1;
+    padding-top: 0;
+  }
+}
+.key {
+          animation: animKey 1500ms backwards;
+}
+.key--1 {
+          animation-delay: 250ms;
+}
+.key--2 {
+          animation-delay: 500ms;
+}
+.key--3 {;
+          animation-delay: 750ms;
+}
+.key--4 {
+          animation-delay: 1000ms;
+}
+.key--5 {
+          animation-delay: 1250ms;
+}
+.key--6 {
+          animation-delay: 1500ms;
+}
+/*# sourceMappingURL=Restos_sass.css.map */

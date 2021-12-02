@@ -1,0 +1,380 @@
+html, body{
+  overflow-x: hidden;
+}
+
+#topPage {  
+  text-align: center;
+  margin: 5% 0 3% 0;
+  width:100%;
+  background-color:white;
+  display: inline-flex;
+  margin-left: 4%;
+}
+
+#topPage img{
+  margin-top: 0; 
+  margin:auto 
+}
+
+.link_home{
+  text-decoration: none;
+}
+
+body{
+  margin:0;
+}
+
+#Resto1Fig { 
+    background-image: url(../img/Restos_large/Resto1_etablssm-l.jpg);
+    height: 300px;
+    position: relative;
+    background-repeat:no-repeat;  
+    background-size:100% ;
+  }
+
+  #Resto2Fig { 
+    background-image: url(../img/Restos_large/Resto2_etablssm-l.jpg);
+    height: 300px;
+    position: relative;
+    background-repeat:no-repeat;  
+    background-size:100% ;
+  }
+
+  #Resto3Fig { 
+    background-image: url(../img/Restos_large/Resto3_etablssm-l.jpg);
+    height: 300px;
+    position: relative;
+    background-repeat:no-repeat;
+    background-size:100% ;  
+  }
+
+  #Resto4Fig { 
+    background-image: url(../img/Restos_large/Resto4_etablssm-l.jpg);
+    height: 300px;
+    position: relative;
+    background-repeat:no-repeat;  
+    background-size:100% ;
+  }
+
+  article{
+    background-color: whitesmoke;
+    padding-bottom: 70px;
+  }
+
+  span{
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .flex_menu{
+    display: flex;
+    align-items: baseline;
+    height: 20px;
+  }
+  
+  .dernier_dessert{
+    margin-bottom: 15%;
+  }
+  
+  #legendResto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 25px;
+    align-items: center;
+    border-radius: 45px 45px 0 0;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    width: 97%;
+  }
+  
+  .legendFig div{
+    width: 10%;
+    display: inherit;  
+  }
+
+  #ordering {
+    background: linear-gradient(70deg, #ff79da, #9356dc);
+    padding: 15px;
+    border-radius: 40px;
+    margin: auto;
+    width: 114px;
+    margin-top: 8%;
+    cursor: pointer;
+  }
+
+  #ordering:hover{
+    box-shadow: 2px 4px 4px 2px rgb(133, 128, 128);
+    background: linear-gradient(70deg, #e29cce, #b490e0);
+  }
+  
+  #ordering a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: Roboto;
+     font-weight: bold;
+    margin-left: 8px;
+}
+
+.anim1{
+  font-size: 2rem;
+}
+
+/* Etat normal */
+.animation{
+  color:rgb(207,102,219);
+  margin: 0;
+  transform: translate(-32px,0px);
+   font-size: 2.1rem;
+  opacity: 0;
+  transition: all 600ms;
+  cursor:pointer;
+}
+
+/* Etat lors du survol*/
+.animation:hover{
+   opacity: 0.98; 
+}
+
+.anim_tarif{
+  display: inline-block;
+  height: 100%; 
+  width: 100%; 
+  padding-left: 3%;
+  cursor:pointer;
+}
+
+.insideCheck{
+  height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+p{
+  margin-left: 5%;
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #867878;
+  margin-top: 10%;
+  border-bottom: 0.2em solid #99e2d0;
+  padding: 0 0 0.1em 0;
+  width: 60px;
+}
+
+h1{
+  font-family:'Shrikhand';
+  color: black;
+ /* margin-bottom: 4%;*/
+  font-size: 1.8rem;
+  margin-left: 5%;
+}
+
+h2{
+  font-size: 1.1em;
+  font-family: Roboto;
+  margin-top: 2.2%;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /*height: 26px;*/
+}
+
+h3{
+width: 88%;
+display: inline-block;
+margin-top: 0.5%;
+font-weight: normal;
+color: #867878;
+overflow: hidden;
+height: 26px;
+text-overflow:ellipsis;
+white-space: nowrap;
+font-size: 1rem;
+}
+
+  footer {
+    background-color: #353535;
+    color:white;
+    padding-bottom:8%;
+    padding-top: 6%;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.1rem;
+    font-size: 1.2rem;
+  }
+  
+   footer #logo img{
+     margin-top: 2em;
+     margin-bottom: 1.8em;
+     margin-left: 2rem;
+     height: 25px;
+   }
+   
+   .ctnFooter i{
+     margin-left: 2em;
+     margin-bottom: 1em;
+     color: white;
+   }
+   
+   .ctnFooter a{
+     margin-left: 0.8em;
+     margin-bottom: 0.5rem;
+   }
+  
+   .ctnFooter #partenaire{
+    margin-left: 1.8%;
+  }
+   
+   .ctnFooter #legales{
+     margin-left: 2em;
+     margin-bottom: 3%;
+     display: inline-block;
+   }
+   
+   .ctnFooter #contact{
+     margin-left: 2em;
+   }
+   
+   .logo {
+    font-family: 'Shrikhand';
+    color: white;
+    margin-bottom: 3%;
+    display: inline-block;
+    margin-left: 1.6%;
+    font-size: 1.5rem;
+  }
+  
+  /*Position initiale du bouton*/
+  .menu_tarif{ 
+    overflow: hidden;
+    box-shadow: 1px 1px #e7e7e7;
+    border-radius:10px;
+    background-color: white;
+    margin: 3%;
+    height: 60px;
+    /*transition-property: transform;*/
+    /*transition-duration: 1000ms;*/
+  }
+
+.fa-check{
+  background-color: white;
+  color: #99e2d0;
+  padding: 3px;
+  border-radius: 30px; 
+}
+
+/*Position du bouton après survol par la souris*/
+ .anim_tarif:hover + .animCheck {
+    animation: move_bnt 1200ms;
+    animation-fill-mode: forwards;  
+}
+
+.anim_tarif:hover + .animCheck div {
+  animation: spin_icn 1200ms;
+  animation-fill-mode: forwards;
+}
+
+.anim_tarif:hover{
+  animation: move_text 900ms;
+  animation-fill-mode: forwards;
+}
+
+.insideCheck{
+ opacity: 1;
+  width:0;
+}
+
+@keyframes move_text{
+  from{
+    width:100%;
+  }
+
+  to{
+    width:80%;
+  }
+}
+
+@keyframes move_bnt{
+  from{
+    width:0%;
+  }
+
+  to{
+    width: 16%;
+  }
+}
+
+@keyframes spin_icn {
+	0% { 
+    opacity:1; 
+    width:100%;
+    transform : rotate(0deg)
+  }
+
+	100% { 
+    opacity:1; 
+    width:100%;
+    transform : rotate(360deg); 
+  }
+}
+
+    .animCheck{
+          width:0%;
+          /*width:11%;*/
+          height: 100%;
+          background-color: #99e2d0;
+           border-radius:0 10px 10px 0;
+           float: right;    
+    }
+
+    @media screen and (min-width:880px) {
+      body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+      #restos{
+        padding-left: 3%;   
+      }
+
+       .menu_tarif{
+          width: 35%;     
+    }
+
+    p{
+      text-align: center;
+       width:80%;
+       margin:auto;
+       margin-top: 50px;
+    }
+      .ctnFlex_restos{
+        max-width: 100%;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        }
+
+        figure{
+          width: 40%;
+        }
+    }
+    
+   
+
+     
+
+
+
+    
+
+
+
+
+  
